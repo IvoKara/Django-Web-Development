@@ -1,0 +1,5 @@
+source <venv>/bin/activate 
+deactivate 
+django-admin startproject <name>
+python3 manage.py runserver
+python3 manage.py startapp <app_name>
