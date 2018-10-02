@@ -1,0 +1,9 @@
+id          firstName 
+----------  ----------
+110         Lazaroc   
+12345       Ivo       
+id          firstName   lastName  
+----------  ----------  ----------
+12345       Ivo         karaneshev
+10          gGOsoho     PEtkov    
+110         Lazaroc     Nevenov   

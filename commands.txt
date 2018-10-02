@@ -3,3 +3,4 @@ deactivate
 django-admin startproject <name>
 python3 manage.py runserver
 python3 manage.py startapp <app_name>
+sqlite3 <filename>

@@ -1,0 +1,4 @@
+! -> shell commands
+% -> special magic 
+%save [option] <filename> n-n1...
+src = https://ipython.org/ipython-doc/3/interactive/tutorial.html

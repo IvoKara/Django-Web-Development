@@ -1,0 +1,80 @@
+# coding: utf-8
+get_ipython().run_line_magic('edit', 'sql_connect.ipy')
+get_ipython().run_line_magic('color', 'Linux')
+get_ipython().run_line_magic('colors', 'Linux')
+import sqlite3 
+connection = sqlite3.connect("demodatabase.db")
+cursor = connection.cursor()
+result cursor.execute("select * from employee")
+result = cursor.execute("select * from employee")
+result 
+result = cursor.fetchall()
+result 
+cursor = connection.cursor()
+cursor.fetchall()
+cursor = connection.cursor()
+cursor = connection.cursor()
+cursor.execute("SELECT * FROM employee;")
+cursor.fetchall()
+res = cursor.fetchall()
+res[0]
+res[0]
+len(res)
+cursor = connection.cursor()
+cursor.execute("SELECT * FROM employee;")
+res = cursor.fetchall()
+res
+res[0]
+res[0][1]
+res[0]["id"]
+connection.row_factory = sqlite3.Row
+cursor = connection.cursor()
+cursor.execute("SELECT * FROM employee;")
+res = cursor.fetchall()
+res[0]
+res[0]["ID"]
+res[0][1]
+cursor.execute("Insert into empoyee values (1, "Stamat", "Kolev")")
+cursor.execute("Insert into empoyee values (1, "Stamat", "Kolev");")
+cursor.execute("Insert into empoyee(id, firstname, lastname) values (1, "Stamat", "Kolev");")
+cursor.execute("Insert into empoyee(id, firstname, lastname) values (1, 'Stamat', 'Kolev');")
+cursor.execute("Insert into employee(id, firstname, lastname) values (1, 'Stamat', 'Kolev');")
+cursor.commit()
+connection.commit()
+cursor.execute("SELECT * FROM employee;")
+connection.row_factory = tuple
+cursor.execute("SELECT * FROM employee;")
+cursor.fetchall()
+connection.row_factory = tuple
+cursor.fetchall()
+cursor.execute("SELECT * FROM employee;")
+cursor.fetchall()
+cursor.close()
+cursor = connection.cursor()
+cursor.execute("SELECT * FROM employee;")
+cursor.fetchall()
+cursor.execute("SELECT * FROM employee;")
+cursor.fetchone()
+connection.row_factory = sqlite3.Row
+cursor.fetchone()
+cursor.execute("SELECT * FROM employee;")
+cursor.fetchone()
+cursor = connection.cursor()
+cursor.execute("select * from employee")
+cursor.fetchone()
+cursor.fetchone()[0]
+cursor.fetchone()[0]
+cursor.execute("select * from employee")
+res = cursor.execute("select * from employee")
+res = cursor.fetchmany(2)
+for employee in res:
+    print(employee)
+for employee in res:
+    print(employee.keys)
+for employee in res:
+    print(employee.keys())
+for employee in res:
+    print(employee[0])
+for employee in res:
+    print(employee['firstname'])
+get_ipython().run_line_magic('save', 'first_session.ipy 1-9999')

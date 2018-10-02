@@ -1,0 +1,7 @@
+# coding: utf-8
+import sqlite3
+path = "C:\\Users\\user\\Desktop\\IoT\\SoftUni\\Django\\Databases\\demodatabase.db"
+connection = sqlite3.connect(path)
+cursor = connection.cursor()
+cursor.execute("select * from employee")
+cursor.fetchall()

@@ -1,0 +1,1 @@
+Select Id, firstName from employee where Id <> 10 order by id
